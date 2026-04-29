@@ -7,52 +7,52 @@
 
 
 // src/components/App.tsx
-// import Product from "./Product";
-// import Button from "./Button";
+import Product from "./Product";
+import Button from "./Button";
 
 export default function App() {
-  //   return (
-  //     <>
-  //       <h1>Best selling</h1>
-  //       <Product
-  //         name="Tacos With Lime"
-  //         imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?w=640"
-  //         price={10.99}
-  //       />
-  //       <Product
-  //         name="Fries and Burger"
-  //         imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?w=640"
-  //         price={14.29}
-  //       />
-  //       <>
-  //         <Button variant="primary" text="Login" />
-  //         <Button variant="secondary" text="Follow" />
-  //       </>
-  //     </>
-  //   );
-  // }
+    return (
+      <>
+        <h1>Best selling</h1>
+        <Product
+          name="Tacos With Lime"
+          imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?w=640"
+          price={10.99}
+        />
+        <Product
+          name="Fries and Burger"
+          imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?w=640"
+          price={14.29}
+        />
+        <>
+          <Button variant="primary" text="Login" />
+          <Button variant="secondary" text="Follow" />
+        </>
+      </>
+    );
+  }
 
 
 
-  const handleClick = () => {
-    console.log("I'm a button!");
-  };
+//   const handleClick = () => {
+//     console.log("I'm a button!");
+//   };
 
-  return <button onClick={handleClick}>Click me!</button>;
-}
+//   return <button onClick={handleClick}>Click me!</button>;
+// }
 
 
-import clsx from "clsx";
+// import clsx from "clsx";
 
-const isPrimary = true;
-const isDisabled = false;
+// const isPrimary = true;
+// const isDisabled = false;
 
-const myClassName = clsx(
-  "btn",
-  isPrimary && "btn-primary",
-  isDisabled && "btn-disabled"
-);
-console.log(myClassName); // "btn btn-primary"
+// const myClassName = clsx(
+//   "btn",
+//   isPrimary && "btn-primary",
+//   isDisabled && "btn-disabled"
+// );
+// console.log(myClassName); // "btn btn-primary"
 
 
 // import Button from "./Button";
