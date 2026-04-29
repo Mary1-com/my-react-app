@@ -7,8 +7,8 @@
 
 
 // src/components/App.tsx
-import Product from "./Product";
-import Button from "./Button";
+// import Product from "./Product";
+// import Button from "./Button";
 
 export default function App() {
   //   return (
